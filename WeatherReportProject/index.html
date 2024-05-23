@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherProject</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <body>
+        <div class="card">
+            <div class="searchbox">
+                <input type="text" placeholder="Enter City Name " id="mytext" spellcheck="false">
+               <button id="button">
+                <img src="images/search.png" alt="searchsymbol">
+               </button>
+            </div>
+            <div class="error">
+                Entred Key Doesn't Exist....
+            </div>
+            <div class="error error2">
+                please Enter the key...
+            </div>
+            <div class="main">
+                <img src="images/snow.png"  class="weather-img">
+                <h1 class="temp">22°C</h1>
+                <h2 class="city">Hydrabadh</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png" class="humidityimp">
+                        <div class="humidity">
+                         <p class="humidity-temp">50%</p>
+                         <p class="namehumidity">Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png" class="windimp">
+                        <div class="wind">
+                         <p class="wind-speed">15 km/h</p>
+                         <p class="windname">Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+    <script src="jsfile.js"></script>
+</body>
+</html>
